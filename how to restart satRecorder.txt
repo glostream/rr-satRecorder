@@ -1,0 +1,15 @@
+how to restart satRecorder.py
+-------------------------------------------------
+
+1) go to CPanel and open "terminal"
+
+2) type in the following commands one-by-one:
+
+cd pythonApp							(to move to the right folder)
+screen -S satRecorder -X quit			(this will quit all running Screen sessions)
+screen -S satRecorder					(this will start a new Screen session)
+python satRecorder.py   				(run the program)
+
+3) then close the terminal by closing the browser tab
+
+NOTE: Screen is a program that allows other programs to continue running after you close the terminal
